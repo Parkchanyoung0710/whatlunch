@@ -8,9 +8,9 @@ import { toast } from 'react-toastify';
 import Modal from '@/shared/components/Modal/Modal';
 import Button from '@/shared/components/Button/Button';
 
-import { authServiceClient } from '@/app/services/backend/auth.api';
+import { authServiceClient } from '@/services/backend/auth.api';
 import { useAuthStore } from '@/domain/Auth/store/auth.store';
-import { disconnectSocket } from '@/app/lib/socket';
+import { disconnectSocket } from '@/lib/socket';
 
 import styles from './LogoutModal.module.scss';
 

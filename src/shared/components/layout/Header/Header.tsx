@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 
-import { authServiceServer } from '@/app/services/backend/auth.api';
+import { authServiceServer } from '@/services/backend/auth.api';
 import HeaderClient from './HeaderClient';
 /**
  *

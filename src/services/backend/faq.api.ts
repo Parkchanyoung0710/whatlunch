@@ -1,5 +1,5 @@
-import { fetcherClient } from '@/app/lib/fetcher-client';
-import { fetcherServer } from '@/app/lib/fetcher-server';
+import { fetcherClient } from '@/lib/fetcher-client';
+import { fetcherServer } from '@/lib/fetcher-server';
 
 interface Fetcher {
   <T>(url: string, options?: RequestInit): Promise<T>;

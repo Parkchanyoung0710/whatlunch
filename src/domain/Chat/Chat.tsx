@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 import type { Socket } from 'socket.io-client';
 
-import { getSocket } from '@/app/lib/socket';
+import { getSocket } from '@/lib/socket';
 import styles from './Chat.module.scss';
 
 interface ChatMessage {

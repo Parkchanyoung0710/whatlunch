@@ -13,9 +13,9 @@ import LoginModal from '@/domain/Auth/LoginModal';
 import SignupModal from '@/domain/Auth/SignupModal';
 import { ProfileImage } from '@/shared/components/ProfileImage';
 
-import { authServiceClient } from '@/app/services/backend/auth.api';
+import { authServiceClient } from '@/services/backend/auth.api';
 import { useAuthStore } from '@/domain/Auth/store/auth.store';
-import { disconnectSocket } from '@/app/lib/socket';
+import { disconnectSocket } from '@/lib/socket';
 
 import WhatLunchLogo from '../../../../../public/icons/what-lunch-logo.svg';
 import styles from './Header.module.scss';

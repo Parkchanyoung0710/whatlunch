@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { resetSocket } from '@/app/lib/socket';
+import { resetSocket } from '@/lib/socket';
 
 // 유저 정보 타입
 type User = {

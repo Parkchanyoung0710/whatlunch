@@ -1,5 +1,5 @@
-import { fetcherClient } from '@/app/lib/fetcher-client';
-import { fetcherServer } from '@/app/lib/fetcher-server';
+import { fetcherClient } from '@/lib/fetcher-client';
+import { fetcherServer } from '@/lib/fetcher-server';
 
 // 서버 사이드에서 호출하는 함수
 export const getMyFoodDotsServer = async (): Promise<string[]> => {

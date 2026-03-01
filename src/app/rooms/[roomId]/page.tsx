@@ -15,12 +15,12 @@ import BaseInput from '@/shared/components/Input/BaseInput';
 import Loading from '@/shared/components/Loading';
 
 import { useAuthStore } from '@/domain/Auth/store/auth.store';
-import { createSocket } from '@/app/lib/socket';
+import { createSocket } from '@/lib/socket';
 import { useRouletteResultStore } from '@/shared/stores/rouletteResultStore';
 import { useRoomLogic } from './useRoomLogic';
 import type { Socket } from 'socket.io-client';
 
-import { favoritesServiceClient } from '@/app/services/backend/favorites.api';
+import { favoritesServiceClient } from '@/services/backend/favorites.api';
 
 import styles from './page.module.scss';
 

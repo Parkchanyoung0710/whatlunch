@@ -10,7 +10,7 @@ import BaseInput from '@/shared/components/Input/BaseInput';
 import Button from '@/shared/components/Button';
 import FavoriteToggle from '@/shared/components/FavoriteToggle';
 
-import { favoritesServiceClient } from '@/app/services/backend/favorites.api';
+import { favoritesServiceClient } from '@/services/backend/favorites.api';
 import { useRouletteResultStore } from '@/shared/stores/rouletteResultStore';
 import { useAuthStore } from '@/domain/Auth/store/auth.store';
 

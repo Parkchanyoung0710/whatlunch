@@ -12,7 +12,7 @@ import BaseInput from '@/shared/components/Input/BaseInput';
 import PasswordInput from '@/shared/components/Input/PasswordInput';
 import Modal from '@/shared/components/Modal';
 
-import { authServiceClient } from '@/app/services/backend/auth.api';
+import { authServiceClient } from '@/services/backend/auth.api';
 import { useAuthStore } from '@/domain/Auth/store/auth.store';
 import { SignupModalProps } from '../types';
 

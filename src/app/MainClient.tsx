@@ -7,8 +7,8 @@ import Clock from '@/shared/components/Clock/Clock';
 import WeatherMood from '@/domain/WeatherMood/WeatherMood';
 import RoomEntryCard from '@/domain/Room/RoomEntryCard/RoomEntryCard';
 import QuoteCard from '@/domain/QuoteCard';
-import { menusServiceClient } from '@/app/services/backend/menus.api';
-import { mapTopFavoritesToCarousel } from '@/app/utils/mapTopFavoritesToCarousel';
+import { menusServiceClient } from '@/services/backend/menus.api';
+import { mapTopFavoritesToCarousel } from '@/shared/utils/mapTopFavoritesToCarousel';
 
 import styles from './page.module.scss';
 
