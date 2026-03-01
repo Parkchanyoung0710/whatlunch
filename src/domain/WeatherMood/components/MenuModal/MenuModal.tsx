@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import { X } from 'lucide-react';
 
-import { getFoodImageByMenu } from '@/app/utils/getFoodImageByMenu';
+import { getFoodImageByMenu } from '@/shared/utils/getFoodImageByMenu';
 import { MENU_DESCRIPTION_MAP } from './menuDescriptionMap';
 import { MenuModalProps } from './types';
 

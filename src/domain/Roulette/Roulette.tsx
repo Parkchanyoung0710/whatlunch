@@ -9,7 +9,7 @@ import RouletteUi from './components/RouletteUi';
 import RouletteModal from './components/RouletteModal';
 import Loading from '@/shared/components/Loading';
 
-import { getSocket } from '@/app/lib/socket';
+import { getSocket } from '@/lib/socket';
 import { Category, Context } from '@/types/enum';
 
 import type { RouletteControllerProps } from './types';

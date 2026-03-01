@@ -5,7 +5,7 @@ import Modal from '@/shared/components/Modal';
 import BaseInput from '@/shared/components/Input/BaseInput';
 import Button from '@/shared/components/Button';
 
-import { faqServiceClient } from '@/app/services/backend/faq.api';
+import { faqServiceClient } from '@/services/backend/faq.api';
 import type { FaqModalProps } from './types';
 
 import styles from './FaqModal.module.scss';

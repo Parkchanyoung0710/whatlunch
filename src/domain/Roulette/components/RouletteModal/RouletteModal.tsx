@@ -9,7 +9,7 @@ import Button from '@/shared/components/Button';
 
 import { RouletteModalProps } from './types';
 import { DEFAULT_IMAGE } from '../../constants';
-import { getFoodImageByMenu } from '@/app/utils/getFoodImageByMenu';
+import { getFoodImageByMenu } from '@/shared/utils/getFoodImageByMenu';
 import { Category } from '@/types/enum';
 
 import styles from './RouletteModal.module.scss';

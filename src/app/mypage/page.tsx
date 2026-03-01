@@ -1,8 +1,8 @@
 import { redirect } from 'next/navigation';
 import type { Metadata } from 'next';
-import { authServiceServer } from '@/app/services/backend/auth.api';
-import { favoritesServiceServer } from '@/app/services/backend/favorites.api';
-import { getMyFoodDotsServer } from '@/app/services/backend/users.api';
+import { authServiceServer } from '@/services/backend/auth.api';
+import { favoritesServiceServer } from '@/services/backend/favorites.api';
+import { getMyFoodDotsServer } from '@/services/backend/users.api';
 
 import MyPageHeader from '@/domain/Mypage/MyPageHeader';
 import FoodDotSelectionCard from '@/domain/Mypage/FoodDotSelectionCard/FoodDotSelectionCard';

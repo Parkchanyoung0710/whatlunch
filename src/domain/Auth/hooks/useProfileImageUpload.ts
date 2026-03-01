@@ -1,5 +1,5 @@
 import { useCallback, useState } from 'react';
-import { authServiceClient } from '@/app/services/backend/auth.api';
+import { authServiceClient } from '@/services/backend/auth.api';
 import { useAuthStore } from '@/domain/Auth/store/auth.store';
 
 export function useProfileImageUpload() {

@@ -1,5 +1,5 @@
 import { CarouselItem } from '@/shared/components/Carousel/type';
-import { TopFavoriteMenu } from '@/app/services/backend/menus.api';
+import type { TopFavoriteMenu } from '@/services/backend/menus.api';
 import { getFoodImageByMenu } from './getFoodImageByMenu';
 import { createBrandCardsByMenu } from './createBrandCardsByMenu';
 

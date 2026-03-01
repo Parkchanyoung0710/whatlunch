@@ -17,7 +17,7 @@ import FaqModal from '../AccountSetting/FaqModal';
 
 import styles from './AccountSetting.module.scss';
 import Button from '@/shared/components/Button/Button';
-import { authServiceClient } from '@/app/services/backend/auth.api';
+import { authServiceClient } from '@/services/backend/auth.api';
 
 // 활성화된 모달 타입
 type AccountSettingActiveModal = 'edit-profile' | 'logout' | null;

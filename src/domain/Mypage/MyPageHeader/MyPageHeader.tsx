@@ -9,9 +9,9 @@ import { toast } from 'react-toastify';
 
 import { useAuthStore } from '@/domain/Auth/store/auth.store';
 import { useProfileImageUpload } from '@/domain/Auth/hooks/useProfileImageUpload';
-import { authServiceClient } from '@/app/services/backend/auth.api';
+import { authServiceClient } from '@/services/backend/auth.api';
 import { useEscClose } from '@/shared/hooks/useEscClose';
-import { getMyFoodDots } from '@/app/services/backend/users.api';
+import { getMyFoodDots } from '@/services/backend/users.api';
 
 import { ProfileImage } from '@/shared/components/ProfileImage';
 import Badge, { BadgeProps } from '@/shared/components/Badge';

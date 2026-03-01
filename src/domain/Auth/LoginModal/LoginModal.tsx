@@ -13,7 +13,7 @@ import BaseInput from '@/shared/components/Input/BaseInput';
 import PasswordInput from '@/shared/components/Input/PasswordInput';
 import Modal from '@/shared/components/Modal';
 
-import { authServiceClient } from '@/app/services/backend/auth.api';
+import { authServiceClient } from '@/services/backend/auth.api';
 import { LoginModalProps } from '../types';
 import { useAuthStore } from '../store/auth.store';
 import Google from '../../../../public/icons/google.png';

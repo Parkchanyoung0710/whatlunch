@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useParams } from 'next/navigation';
 
-import { getSocket, isSocketConnected } from '@/app/lib/socket';
+import { getSocket, isSocketConnected } from '@/lib/socket';
 import { useRouletteSync } from '../../hooks/useRouletteSync';
 import { useSectorColors } from '@/domain/Roulette/hooks/useSectorColors';
 import { useRouletteDraw } from '@/domain/Roulette/hooks/useRouletteDraw';

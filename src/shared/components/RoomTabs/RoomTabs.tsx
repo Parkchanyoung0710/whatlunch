@@ -6,7 +6,7 @@ import { useParams } from 'next/navigation';
 import Roulette from '@/domain/Roulette';
 
 import { useRouletteResultStore } from '@/shared/stores/rouletteResultStore';
-import { getSocket } from '@/app/lib/socket';
+import { getSocket } from '@/lib/socket';
 
 interface RoomTabsProps {
   userRole?: 'host' | 'guest' | null;
