@@ -4,7 +4,7 @@ import { fetcherServer } from '@/lib/fetcher-server';
 interface Fetcher {
   <T>(url: string, options?: RequestInit): Promise<T>;
 }
-import type { MenuCategory } from '@/domain/Mypage/FavoriteMenuCard';
+import type { MenuCategory } from '@/feature/Mypage/FavoriteMenuCard';
 
 export interface TopFavoriteMenu {
   id: string;

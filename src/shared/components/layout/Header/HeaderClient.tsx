@@ -9,12 +9,12 @@ import { Menu, X } from 'lucide-react';
 import { toast } from 'react-toastify';
 
 import Button from '@/shared/components/Button';
-import LoginModal from '@/domain/Auth/LoginModal';
-import SignupModal from '@/domain/Auth/SignupModal';
+import LoginModal from '@/feature/Auth/LoginModal';
+import SignupModal from '@/feature/Auth/SignupModal';
 import { ProfileImage } from '@/shared/components/ProfileImage';
 
 import { authServiceClient } from '@/services/backend/auth.api';
-import { useAuthStore } from '@/domain/Auth/store/auth.store';
+import { useAuthStore } from '@/feature/Auth/store/auth.store';
 import { disconnectSocket } from '@/lib/socket';
 
 import WhatLunchLogo from '../../../../../public/icons/what-lunch-logo.svg';

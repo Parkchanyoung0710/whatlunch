@@ -1,5 +1,5 @@
 import { Category } from '@/types/enum';
-import type { MenuCategory } from '@/domain/WeatherMood/components/MenuModal/types';
+import type { MenuCategory } from '@/feature/WeatherMood/components/MenuModal/types';
 
 const GLOBAL_FALLBACK_IMAGE = '/foods/noimg.png';
 

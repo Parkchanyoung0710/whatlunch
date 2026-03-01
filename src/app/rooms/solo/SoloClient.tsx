@@ -4,7 +4,7 @@ import { useState, useRef, useCallback, useEffect } from 'react';
 import { DicesIcon, Clock } from 'lucide-react';
 import { toast } from 'react-toastify';
 
-import Roulette from '@/domain/Roulette';
+import Roulette from '@/feature/Roulette';
 import KakaoMap from '@/shared/components/KakaoMap';
 import BaseInput from '@/shared/components/Input/BaseInput';
 import Button from '@/shared/components/Button';
@@ -12,7 +12,7 @@ import FavoriteToggle from '@/shared/components/FavoriteToggle';
 
 import { favoritesServiceClient } from '@/services/backend/favorites.api';
 import { useRouletteResultStore } from '@/shared/stores/rouletteResultStore';
-import { useAuthStore } from '@/domain/Auth/store/auth.store';
+import { useAuthStore } from '@/feature/Auth/store/auth.store';
 
 import styles from './page.module.scss';
 

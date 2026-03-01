@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback, useRef } from 'react';
 import { useParams } from 'next/navigation';
 
-import Roulette from '@/domain/Roulette';
+import Roulette from '@/feature/Roulette';
 
 import { useRouletteResultStore } from '@/shared/stores/rouletteResultStore';
 import { getSocket } from '@/lib/socket';
